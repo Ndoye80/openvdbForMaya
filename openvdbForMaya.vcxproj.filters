@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6fae2861-1625-407f-9d23-f0fef7f33ebe}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b0a73609-ff4e-46f8-bbad-613215ba4471}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{cd5992dd-75db-4f5f-b4c2-adc1ecdcdd36}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Miscellaneous Files</Filter>
+    </Text>
+    <Text Include="Options.txt">
+      <Filter>Miscellaneous Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="openvdb_maya\OpenVDBPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBReadNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBToPolygonsNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBTransformNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBUtil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBVisualizeNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBWriteNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBCopyNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBData.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBFilterNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBFromMayaFluidNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openvdb_maya\OpenVDBFromPolygonsNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="openvdb_maya\OpenVDBData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="openvdb_maya\OpenVDBPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="openvdb_maya\OpenVDBUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="openvdb_maya\openVDBNodeDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
